@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en" class="h-100" data-bs-theme="auto">
+  <head><script src="../assets/js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.115.4">
+    <title>Portfolio- Sibonelo Mbambo</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/cover/">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    
+    
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body class="bg-light">
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+      <symbol id="check2" viewBox="0 0 16 16">
+        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+      </symbol>
+      <symbol id="circle-half" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+      </symbol>
+      <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+        <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+      </symbol>
+      <symbol id="sun-fill" viewBox="0 0 16 16">
+        <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+      </symbol>
+    </svg>
+
+    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+      <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
+              id="bd-theme"
+              type="button"
+              aria-expanded="false"
+              data-bs-toggle="dropdown"
+              aria-label="Toggle theme (auto)">
+        <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
+        <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+            Light
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+            Dark
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#circle-half"></use></svg>
+            Auto
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    
+    <div class="banner-wrap vh-100 vw-100 text-white">
+      <div class="overlay"></div>
+      <header class="p-3 text-white fixed-top">
+        <div>
+          <h3 class="float-md-start mb-0">Portfolio</h3>
+          <nav class="nav nav-masthead justify-content-center float-md-end">
+            <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
+            <a class="nav-link fw-bold py-1 px-0" href="#about-us">About me</a>
+            <a class="nav-link fw-bold py-1 px-0" href="#Projects">Projects</a>
+            <a class="nav-link fw-bold py-1 px-0" href="#Contact">Contact</a>
+          </nav>
+        </div>
+      </header>
+
+     <main class="d-flex flex-column align-items-center justify-content-center h-75 text-center">
+     <h1 class="display-1">Sibonelo Mbambo</h1>
+     <p class="lead">Full Stack  Web Developer(ZAIO). Junior Bookkeeper (ICB & FASSET Certified)</p>
+   </main>
+
+  
+   </div>
+   <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+    <section id="about-us">
+      <div class="container p-5">
+        <div class="card">
+         <div class="card-body">
+           <h5 class="card-title"></h5>
+           <div class="row">
+            <div class="col-md-6">
+              <div class="row p-3">
+                <div class="col-md-5">
+                  <img src="./assets/prfssnl prfle pic.jpeg" class="img-fluid" alt="...">
+                </div>
+                <div class="col-md-6 mt-3">
+                  <p><strong>Name :</strong> Sibonelo Mbambo</p>
+                  <p><strong>Email :</strong> ssmbambo912@outlook.com</p>
+                  <p><strong>Contact no. :</strong> 069 390 7410</p>
+                  <p><strong>Skills :</strong> 
+                    <span class="badge rounded-pill bg-dark">HTML</span>
+                              <span class="badge rounded-pill bg-dark">CSS</span>
+                              <span class="badge rounded-pill bg-dark">git</span>
+                              <span class="badge rounded-pill bg-dark">Javascript</span>
+                              <span class="badge rounded-pill bg-dark">Firebase</span>
+                              <span class="badge rounded-pill bg-dark">Funcional programming</span>
+                              <span class="badge rounded-pill bg-dark">ReactJS</span>
+                              <span class="badge rounded-pill bg-dark">Redux</span>
+                              <span class="badge rounded-pill bg-dark">NodeJS</span>
+                              <span class="badge rounded-pill bg-dark">MongoDB</span>
+                              <span class="badge rounded-pill bg-dark">Express</span>
+                  </p>
+                 
+                  
+                </div>
+             </div>
+            </div>
+            <div class="col-md-6 mt-3">
+              <h1 class="text-center text-md-start"><mark>About me</mark></h1>
+              <p class="lead"></p> Islamic studies Graduate. Public Speaker . Junior Bookkeeper (ICB & FASSET Certified) . Certified FullStack web developer (ZAIO). </p>
+            </div>
+
+           </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Projects">
+      <div class="container p-3">
+        <h1  class="text-center"><mark>Projects</mark></h1>
+        <div class="row">
+          <div class="col-md-4 mt-3">
+            <div class="card">
+              <img
+                src="https://zaiocontent.s3.eu-west-2.amazonaws.com/images+of+courses/css_netflix.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Netflix Landing Page</h5>
+                <p class="card-text">Built this with HTML & CSS</p>
+                <a href="https://sm-netflix-zaio.netlify.app/" target="_blank" class="btn btn-primary">View website</a>
+                <a href="https://github.com/Sibonelo912gthub/zaio-git-netflix" target="_blank" class="btn btn-primary btn-outline-dark btn-light"><i class="bi bi-code-slash"></i></a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4 mt-3">
+            <div class="card">
+              <img
+                src="./assets/twitterClone.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Twitter (X) Clone</h5>
+                <p class="card-text">Built this with HTML & CSS</p>
+                <a href="https://twitter-clone-by-sibonelo.netlify.app/" target="_blank" class="btn btn-primary">View website</a>
+                <a href="https://github.com/Sibonelo912gthub/Twitter-Clone-Virtual-Project" target="_blank" class="btn btn-primary btn-outline-dark btn-light"><i class="bi bi-code-slash"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mt-3" id="counter-one">
+            <div class="card">
+              <img
+                src="./assets/YTB clone.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Youtube Clone</h5>
+                <p class="card-text">Built this with HTML & CSS</p>
+                <a href="https://zaio-platfor-youtube-clone.netlify.app/" target="_blank" class="btn btn-primary">View website</a>
+                <a href="https://github.com/Sibonelo912gthub/Zaio-platform-YouTube-clone" target="_blank" class="btn btn-primary btn-outline-dark btn-light"><i class="bi bi-code-slash"></i></a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4 mt-3">
+            <div class="card">
+              <img
+                src="./assets/counter.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Fancy Counter Project</h5>
+                <p class="card-text">Built with HTML, CSS & JS</p>
+                <a href="https://fancy-counter-project.netlify.app/" target="_blank" class="btn btn-primary">View website</a>
+                <a href="https://github.com/Sibonelo912gthub/Fancy_counter_JSprjct" target="_blank" class="btn btn-primary btn-outline-dark btn-light"><i class="bi bi-code-slash"></i></a>
+              </div>
+            </div>
+        </div>
+       
+        <div class="col-md-4 mt-3" id="counter">
+          <div class="card">
+            <img
+              src="./assets/word counter.jpeg"
+              class="card-img-top"
+              alt="..."
+          
+            />
+            <div class="card-body">
+              <h5 class="card-title">Word Analytics JS Project</h5>
+              <p class="card-text">Built with HTML, CSS & JS</p>
+              <a href="https://word-analytics-js.netlify.app/" target="_blank" class="btn btn-primary">View website</a>
+              <a href="https://github.com/Sibonelo912gthub/word-analytics-js" target="_blank" class="btn btn-primary btn-outline-dark btn-light"><i class="bi bi-code-slash"></i></a>
+            </div>
+          </div>
+        </div>
+
+
+          <!-- done: Building Googles note taking app: Google Keep with HTML & CSS : addnetlify link -->
+          <div class="col-md-4 mt-3"  id="counter">
+            <div class="card">
+              <img
+                src="data:image/jpeg;base64,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"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Google Keep</h5>
+                <p class="card-text">Built HTML & CSS</p>
+                <a href="https://google-keep-html-css-prjct.netlify.app/" target="_blank" class="btn btn-primary">View website</a>
+                <a href="https://github.com/Sibonelo912gthub/google-keep-html-css-prjct" target="_blank" class="btn btn-primary btn-outline-dark btn-light"><i class="bi bi-code-slash"></i></a>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- done: Building Googles note taking app: Google Keep with JS : addnetlify link-->
+          <div class="col-md-4 mt-3"  id="counter">
+            <div class="card">
+              <img
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAMAAzAMBEQACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAQYCAwUEB//EAD4QAAICAQICBQYNAwQDAAAAAAABAgMEBREhQRIxUXGxEyJSYZGhBhUyNDVCU3JzgZLB0RYj4RRUk/BEgrL/xAAbAQEAAgMBAQAAAAAAAAAAAAAAAQUCBAYDB//EADkRAQACAQEFAwoEBQUBAAAAAAABAgMEBRESITFBUXETFSIyM1JhobHRFDSBkQZCcsHhFiMk8PFT/9oADAMBAAIRAxEAPwD6Bq2U8rMmt30IScYru5nD7T1U6jUTz5RO6P07VzpcXBSO94yujk2QkCAYEAAkIEMgAASEIAICQAQICAJAIZAACQZAgB1cd9thE8xbdE1CN2CvLz2nB9F78zttla6Mumjyk845KbVYJpk5Ky+L3Zxy3QAAMgQAAAAIISAABAAQAAECGAAEJQAAAGBAkCBnCycFtCWyPSmW9I3RJNYnqzMmIAIBgQAAAAIISAABAgAAAECGAAEJQAAAGBAkCACW49WAwIAAAAACABCQD142nZWTs4V9GD+vPgix0+y9Vn5xXdHx5NfJqcdOs75+D31aCkt7shvtUFsW2L+Ho65b/t/nf9GrbX+7VvWiYm3GVsu+X+DZrsHSRHOZ/d5Trsk9IhjPQsZrzLbovvTRhb+H9PPq2mP++DKNfftiHku0PIhxpshauxrosrs2wM9PZzFvlL3prsc+tEw5l1VlM3C2EoSXKSKfNgyYZ4cldzcret+dWGx4sgAQlAAAAYECQIAJbT1YAAAAAAAlBA2UUW5Fka6Y9KT5cl6z2wYMme8UxxzljfJXHXissGDpdOLtOaVtvpNcF3HX6LZOLTxFr87fJUZtVbJyjlD39v8A3Ytmr8ZebIz8TGe198Iy9FPd+xcTWzazT4faXiPr+z1pgyX9WHmevYCeynY+6tmp550cdLfKfs9o0WbuZ161p83t5fo/fg17zOm1tHed3H++9jbSZ4/le2uddqUq5xnF9Ti90b9LxeN9J3x3teYms7phjdTVfX5O2MZx7HyMM2DHmrwZIiYZUvas74lwNS0mePvZT/cq5rnE5LaGyLab/cxc6/RaafVRl9G3KXNKRugEEAAAMCABCQDaerAAAAAAJQQMqqpW2RrrTcpPZI9MWK+W8Up1lja0UiZlaMDDhiVKK4yfy5dp3Oh0VNJj3V6z1nvUmbNbLbf2MszLpw6vKXy2XUlzk+xHvqNTj09OO88mOPFbJO6qtZ+q5GXvFSdVXoxfH82cnrNq5tR6NfRr3LjDpaY+fWXgSS6ir3tnfIQC9YObOi63Hs6dE5Vy7U+s9cOfJhtxUndLC9K3jdaN7v6brcbZRqy9oWPhGfVGT9fYdPodsUzTGPNylWajRcMcVOjsterh1F3v7JaHxV3WdP8A9PLy1S/szfFei/4OQ2vszyE+Wxx6M9Y7lvpNR5SOG3VzGUTdQQAACBIEAEgG09WAAAAQEhAAd3QcToVvJkvOnwh3dp1WwtHw0nUT1np4KvXZd88EOjk3wxqJ22vaMVuy9zZaYaTe/SGnSk3tFaqhm5U8zIldZ3RXorsOG1mqvqsvHbp2QvcOOMVd0NBqPUAACAAcOYFg0DUXZtiXy3lFbwk+trsOq2RtCcseQydY6KrWaaK+nV2La43VSrsXmyWzRd5MdclJpbnEw0a2msxaFQyanjZNlE+uD271y9x8/wBVp50+a2Oeyf8Az5L7FfjpFoazWegQAECQIAJANh672IN4DeA3gQAGVcZTsjCPXJpIzx0nJetI7ZRNuGN8rfVXGquNcPkxSSPouPHXHSKR0hz1rcUzMuB8JMpu2GNF+bBdKS7Xy9xzm3dTM2jBHZzn+yz0GPdE3lxTnliEAQAAAAIGVc51TjZW9pRlun6z0xZL4rxkpPOOZNYtHDPaumLesmiq6PVOKfd2n0HBlrmx1yR0lzt6cF5rLjfCajZ1X835j8V+5z+38ERw5v0/vCw2ffrSXFjLtOYWLIxBgQJAgAkIGw9WIAAAAAHs0mPS1Cn1Nssdk049ZT4c2vqp3YbLRzO6lSKXqFjtz75PjvNnB67J5TU3t8XQYK8OOIec03qEAAAACACQCzfByfSwJRb+RN7fmdjsPJxaWaz2SptfXdlie9t16Cnptj5xaa9p7bYpxaO3w5sNFbdmhVDh12zjLtMZhDIgQQASACBsPViAAAAgAPdojS1GG/Yy42HP/Mjwlq6z2MrMuw7RTSo16ayLE+tTfifPM8TGW8T3y6KnqwwPFmkCAAAAQkAAWH4Mp/6a58nNeB1f8PxPkbz8f7KnaHr1e3WHtpt/Z0Sw2nO7R5PBr6WP96qonBL7cA3Mk/aYyxZEAEhAAbD0YgAAAAgD06dZ5LNpk+rpbP8AM39m5fJaqk/Hd+7x1FeLFaFs5neqJUNXp8jqNy22TfSX5nD7UxTi1d47+a90t+LFE/o8RXNgAAEBJCUMEAkk5EIWrQanTp0G1xsbl+37HbbHxTj0kTPWd8qXWX4svgx+ENvk9P6HOc0v3MduZeDSTHvboToa78u/uVc4pdJAggZJ8iJQyIAgANh6MQABAAAA4rjF7NdXeZVmY5x1g3b+S3Yd6ycWq5fWjx7+Z9C0ueM+GuWO3/s/NQZaeTvNXM+EWJ5SlZMF51fCX3f8FTtzScdIz1616+H+G5ocvDbyc9J+qunKLUAkgAIACQIG/DxpZeRCmD2cnxfYubNnSaa2pyxjq88uSMdJtK5QjGEIwgtoxWyXYj6BStaVitekOfmZmd8q98IsjymXGiPyao+d958fDY5Xb2o48sYY6V6+M/4+q20GPdSbT2/2cg59voCAgT1BMsovcxlCSBAGw9GIAAAAAADqaFl+StePY/Mse8fVL/J0GwtZGO04bzynp4tHWYeKOOOz6O/JdJbNbp9a7Tq5iLRMTzhVRMxzhV9X02WHN21pvHb/AE+pnG7T2dbTW46c6z8vgutNqYyRwz1c0qG2kJQEAkEQM64StnGuEXKcn5qSPTHS+S0UpG+ZYzaKxvlatK0+OFVvLjdP5cuz1Ha7N0EaSnP1p6qXUZ5zW5dG3Oyo4mPK2S3a4RXa+w2dXqK6bFOS3Z08Xnhxzlvwwp85ysnKc3vKTbb9bPn17ze83nrPN0FYisREIMQIAAEgJSmYyhJA2HoxAAAAAAEB+ZMcp3wblg0jU1dBUZEtrUtoyfDp/wCTsdlbTjPWMeSfTj5/5VOq001nip0dOSjKDUo9KL4NNFzatbxw2jfEtOJ3c46uLm6EnvPDl0X9nL9mc9rNhRbfbBO74fZY4tfu5ZI/VwJpwlKMlxT2ZzdqzS00t2LKJ3xEwgwSEDfhY8srKhTGSj0ubNnR6f8AE5oxxO7e88uTydJutODgUYMf7Md5vrsl1v8Ag7XSaDDpI9GOfepM2ovl9bo33XV0VyttkoxXP+DZy5KYqcd53Q86Um88NVT1DOnnXdKW6rj8iO/V6+84jaOvtq8m/pWOkLzT4K4a/F5Sue4QAAJCAACRO5iNpmwAAAAAAgABK7+71ExaY5wdm52dH1K+y6GLd/c3T6M+a25PtOp2TtXJmvGDLG+Z7furdXpq1r5SnJ3EdGrlHyfnFv4kvE+ean22SfjP1dFj9Svg1muzSB7tF4anT+fgyz2P+cr+v0a2r9jZa/edx2qPsVHU8q7Iy7FdLeMJuMYrgktzhNo6vLmzWreeVZmI/dfafFSlImI5vIV0vcIAAEhAAABEgBuMmAAAgAAAAAAS92ifSdXdLwZa7F/O08J+jV1nsZ/T6rP3HcKVyrNBxpzlN3X7ybb4x/gpL7CwXtNptPPw+zejX5IiI3RyY/0/i/bX+2P8GP8Ap/Te9b5fZPnDJ3R8/un+n8T7a/2x/gf6f03vW+X2POGTuj5/dtxdHx8W+F1dlrlHlJrbq7j302x8OnyxkraeXg88msvkrwzEOgustmmpeZ88v/Fl4s+d6z8zk/qn6uixezr4Q1Gs9AG4CQgAAASBAlAbDJgAAAAAEgAAQPdon0nV3S/+WW2xPztPCfo1dZ7Cf0+qzncKV4J6zgQk4yuaabTXk5dfsK621tHS01tfnHwn7NmNHmns+cMfjvTvt3/xy/gx886H3/lP2T+Cz93zj7nx3p327/45fwPPOh9/5T9j8Fn7vnH3bKNUw8i2NVNvSnLqXQkv2PXDtLS5rxTHbfM/CWN9LlpXitHL9Hs5m815UvM+eX/iy8WfO9Z+Zyf1T9XQ4vZ18IajWegEhAEgQAAAiBO4GwyYgAAAAAAIIAD36J9J1d0vBltsT87Twn6NXWewn9Pqs53ClUnJa/1Ny32flJeJ861E/wC7fxn6uixx6NfBr/Ne08N703H5r2jePbov0nSukt+PP1Fpsaf+bX9fo1dZv8jK2czuFF2KXmfPL/xZeLPnes/M5P6p+ro8Xs6+ENRrPRMIuc1CC3k+pE1ra87qom0VjfLo1aVw3us29UUWdNnRu35J/ZrW1Puw2/FdHp2+49PN+Lvlh+Iv3HxVT6dvuI834u+T8RfuPiqn07fcPN+Lvk/EX7j4qp9O33Dzfi75PxF+4+K6F9ez3Dzfintk/EW7nsp+DkJw6U7Zw36lsixx/wAP47V32tMfs8La+YndEOAcssgAAAAAAAAB7tE+lKu6Xgy22J+dp4T9GrrPYT+n1Wc7hSsfJVb7uqt/+iPPyOOf5Y/Zn5S/fJ5Kr7Gr9CHkcXux+x5S/fJ5Kr7Gr9CHkcXux+x5S/fIq64tONdaa5qCQjFjid8VhE3tPKZZcz0YKXmfPL/xZeLPnWs/M5P6p+ro8Xs6+ENRrPR2NLpVdHlWvPnz9RdaLDFMfH2y0s9uK27uezlsbjwAAAA3tyA6OBh7bW3Lj1xj2FvpNJw+nfq1cuXf6MOjsWLXfPT5i6QAAAAAAAAAbcXIniXxvhGMpR32T6nubWj1M6XNGWI3vPJjjLXgmXufwgyV/wCPV+pl3P8AEN/cj5tXzdXvlYKpdOqub+tFPh3HT0tNqRae1VWjdMx3MjJAB59QyJYuHZfCKk4pbJ9XWa2szzgwWyxHR64aRkyRSe1xv6gyPsKv1M5//UOT/wCfzWHm+nvOTbN2WzsfByk5Nd5z2bJ5TJa/fO9v0jdXdDE80u/jfNafuR8DocHsq+EK+/ry2nqwAAB8AOjgYezVty4/Vj2FvpNJw+nfq1cuX+WHRLFrgHz0+YukAAAAAAAAAEAQ4+oCzUatgwprjK9bqCTXRfDgd3j2npIpETeN+6FNfSZptM8LP440/wD3C9jM/Omj99j+Dz+6fHGn/wC4XsY866P3z8Hn915dT1LCvwbaqrlKcktls+00to7Q0uXS3pS2+Zh7afTZaZYmYV7icf05LfqEJSh2sXexfm1P3I+B0OD2VfCFff1pbT1YAADo4GHs1bcuP1YvkW+k0nB6d+rVy5d/o1dEsWuAAPnp8xdIAAAAAAYEAABAAQ0TAxJTAEhAEgQCHah38X5rT9yPgdDg9lXwhX39aW09WAI+A6OBh7ONty876sewt9JpOD079Wrly7/Rq6JYtcAAAPnux8y3bnSIIAAAAACJAAACQABDQGO2xJAEgAAh2od/F+a0/cj4HQ4PZV8IV9/WltPXt3MHRwMNxatuXndcYvkW+k0nB6d+rVy5d/o1dEsWuAAAACjapjSxc66tp7N9KPczgNoaacGotXs6x4f4XunyeUxxPa8pXvcAAAAAJAAAAAIACGBjtsTCYBIASgh3sbhi1N+gvA6LB7OvhCvyevLrYOE47W3LzvqxfIvNJpOD079Wlly7/Rq6JYtcAAAAAD//2Q=="
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Google Keep (JS)</h5>
+                <p class="card-text">Built HTML, CSS & JS</p>
+                <a href="https://zaio-g0ogle-keep-clone.netlify.app/" target="_blank" class="btn btn-primary">View website</a>
+                <a href="https://github.com/Sibonelo912gthub/js-google-keep-cl0ne" target="_blank" class="btn btn-primary btn-outline-dark btn-light"><i class="bi bi-code-slash"></i></a>
+              </div>
+            </div>
+          </div>
+
+          
+          <!-- done:firebase project -->
+          <div class="col-md-4 mt-3"  id="counter">
+            <div class="card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHVOdO8qm9a8ZWiY4tDzkraqaGihzRxMfNlw&s"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Amazone Clone</h5>
+                <p class="card-text">Built with MERN Stack</p>
+                <a href="https://github.com/Sibonelo912gthub/Zaio-Instagram-Firebase" target="_blank" class="btn btn-primary">View code here</a>
+                <a href="https://github.com/Sibonelo912gthub/Zaio-Instagram-Firebase" target="_blank" class="btn btn-primary btn-outline-dark btn-light"><i class="bi bi-code-slash"></i></a>
+              </div>
+            </div>
+          </div>
+
+           <!-- done: REACT GOOGLE KEEP -->
+           <div class="col-md-4 mt-3"  id="counter">
+            <div class="card">
+              <img
+                src="data:image/jpeg;base64,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"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Google Keep clone</h5>
+                <p class="card-text">Built HTML, CSS & React</p>
+                <a href="https://github.com/Sibonelo912gthub/Zaio-React-Prject" target="_blank" class="btn btn-primary">View code</a>
+                <a href="https://github.com/Sibonelo912gthub/Zaio-React-Prject" target="_blank" class="btn btn-primary btn-outline-dark btn-light"><i class="bi bi-code-slash"></i></a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-4 mt-3"  id="counter">
+            <div class="card" >
+              <img
+                src="data:image/png;base64,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"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Amazone Clone</h5>
+                <p class="card-text">Built with MERN Stack</p>
+                <a href="https://github.com/Sibonelo912gthub/zaio-amazon-react-clone" target="_blank" class="btn btn-primary">View code</a>
+                <a href="https://github.com/Sibonelo912gthub/zaio-amazon-react-clone" target="_blank" class="btn btn-primary btn-outline-dark btn-light"><i class="bi bi-code-slash"></i></a>
+              </div>
+            </div>
+          </div> 
+
+          <div class="col-md-4 mt-3">
+            <div class="card">
+              <img
+                src="data:image/png;base64,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"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">React AirBnB clone</h5>
+                <p class="card-text">Built with MERN Stack</p>
+                <a href="https://github.com/Sibonelo912gthub/zaio-airbnb-clone" target="_blank" class="btn btn-primary">View code</a>
+                <a href="https://github.com/Sibonelo912gthub/zaio-airbnb-clone" target="_blank" class="btn btn-primary btn-outline-dark btn-light"><i class="bi bi-code-slash"></i></a>
+              </div>
+            </div>
+          </div>
+
+       
+
+          <div class="col-md-4 mt-3" id="counter" >
+            <div class="card"  style="height: 405px">
+              <img
+                src="data:image/png;base64,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"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">React Tic Tac Toe Project</h5>
+                <p class="card-text">Themes, Sound Effects, Music Player & Contexts</p>
+                <a href="https://github.com/Sibonelo912gthub/Zaio-tic-tac-toe" target="_blank" class="btn btn-primary">View code</a>
+                <a href="https://github.com/Sibonelo912gthub/Zaio-tic-tac-toe" target="_blank" class="btn btn-primary btn-outline-dark btn-light"><i class="bi bi-code-slash"></i></a>
+              </div>
+            </div>
+          </div>
+
+      </div>
+    </section>
+
+    <section id="Contact">
+      <div class="conatiner p-5">
+        <div class="card p-3">
+          <div class="card-body px-5">
+            <h1 class="text-center"><mark>Let's Connect!</mark></h1>
+            <p class="lead text-center p-3" >Would love to connect with fellow developers, employers looking for developers, or anyone looking to get web development done.</p>
+            <p class="text-center fs-2"> 
+              <a href=""><i class="bi bi-tiktok m-2"></i></a>
+              <a href="https://www.linkedin.com/in/sibonelo-m-75238b254" target="_blank"><i class="bi bi-linkedin m-2"></i></a>
+              <a href="https://github.com/Sibonelo912gthub" target="_blank"><i class="bi bi-github m-2"></i></i></a>
+            </p>
+
+            <form>
+
+              <div class="mb-3">              
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Enter Email Address"
+                />
+              </div>
+
+              <div class="mb-3">    
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Enter Name"
+                />
+              </div>
+              <div class="mb-3">    
+                <input
+                  type="text"
+                  class="form-control"
+                  id="subject"
+                  placeholder="Enter Subject"
+                />
+              </div>
+
+              <div class="mb-3">
+                  <textarea class="form-control" aria-label="with textarea" placeholder="Enter Message"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form> 
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-center text-white">
+      <div class="container p-3">
+          <p>Developed by Sibonelo Mbambo using Bootstrap, for Zaio Bootstrap Course.</p>
+      </div>
+  </footer>
+
+
+  </body>
+
+</html>
